@@ -2,7 +2,7 @@ const score = prompt("Enter Score:");
 if (isNaN(score)) {
   console.log("not a number");
 } else {
-  switch (true) {
+  switch (score) {
     case score === 100:
       console.log("Perfect Score");
       break;
